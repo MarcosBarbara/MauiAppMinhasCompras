@@ -1,0 +1,2 @@
+# MauiAppMinhasCompras
+ App estudo ETEC
