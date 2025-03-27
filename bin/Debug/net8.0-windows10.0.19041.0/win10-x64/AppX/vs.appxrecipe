@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-27T13:55:38.348</Modified>
+      <Modified>2025-03-27T16:39:44.738</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-27T13:55:38.203</Modified>
+      <Modified>2025-03-27T16:25:17.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppMinhasCompras.runtimeconfig.json">
       <PackagePath>MauiAppMinhasCompras.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppMinhasCompras.dll">
       <PackagePath>MauiAppMinhasCompras.dll</PackagePath>
-      <Modified>2025-03-27T13:55:37.145</Modified>
+      <Modified>2025-03-27T16:39:43.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppMinhasCompras.exe</PackagePath>
-      <Modified>2025-03-27T13:55:37.185</Modified>
+      <Modified>2025-03-27T16:39:44.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppMinhasCompras.deps.json">
       <PackagePath>MauiAppMinhasCompras.deps.json</PackagePath>
-      <Modified>2025-03-27T13:55:37.878</Modified>
+      <Modified>2025-03-27T16:25:16.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
