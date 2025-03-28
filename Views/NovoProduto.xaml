@@ -10,6 +10,9 @@
 
 
     <VerticalStackLayout Spacing="10" Padding="10">
+        <Label Text="Categoria do produto: " />
+        <Entry x:Name="txt_categoria" />
+        
         <Label Text="Descrição do produto: " />
         <Entry x:Name="txt_descricao" />
 

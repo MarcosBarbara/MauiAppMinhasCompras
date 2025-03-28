@@ -8,7 +8,7 @@ namespace MauiAppMinhasCompras.Views;
 public partial class ListaProduto : ContentPage
 {
 	ObservableCollection<Produto> lista = new ObservableCollection<Produto>();
-	public ListaProduto()
+    public ListaProduto()
 	{
 		InitializeComponent();
 		lst_produtos.ItemsSource = lista;
@@ -126,6 +126,27 @@ public partial class ListaProduto : ContentPage
             await DisplayAlert("Ops", ex.Message, "OK");
 
         }  finally
+        {
+            lst_produtos.IsRefreshing = false;
+        }
+    }
+
+    private async void txt_search_categ_TextChanged(object sender, TextChangedEventArgs e)
+    {
+        try
+        {
+            string q = e.NewTextValue;
+            lst_produtos.IsRefreshing = true;
+            lista.Clear();
+            List<Produto> tmp = await App.Db.Search(q);
+            tmp.ForEach(i => lista.Add(i));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Ops", ex.Message, "OK");
+
+        }
+        finally
         {
             lst_produtos.IsRefreshing = false;
         }

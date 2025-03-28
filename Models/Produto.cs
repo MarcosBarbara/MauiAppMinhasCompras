@@ -9,6 +9,8 @@ namespace MauiAppMinhasCompras.Models
 
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
+
+        public string Categoria { get; set; }
         public string Descricao
         {
             get => _descricao;
